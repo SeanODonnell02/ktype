@@ -53,3 +53,27 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# CMake / CLion build output
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Compiled binaries (no extension on Unix)
+ktype
+mkfreq
+
+# Runtime artifacts
+*.log
+profile.txt
